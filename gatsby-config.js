@@ -12,6 +12,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: `${website}`
   },
+  pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__',
   plugins: [
     'gatsby-transformer-yaml',
     'gatsby-transformer-json',
@@ -84,7 +85,8 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-offline',
-    'gatsby-plugin-webpack-size'
+    'gatsby-plugin-webpack-size',
+    'gatsby-plugin-ipfs'
     // 'gatsby-plugin-webpack-bundle-analyser-v2'
   ]
 }

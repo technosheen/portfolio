@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import posed, { PoseGroup } from 'react-pose'
 import shortid from 'shortid'
+import { withPrefix } from 'gatsby'
 import { fadeIn } from './atoms/Transitions'
 import Typekit from './atoms/Typekit'
 import HostnameCheck from './atoms/HostnameCheck'
@@ -29,10 +30,11 @@ export default function Layout({ children, location }) {
   const timeout = 200
   const RoutesContainer = posed.div(fadeIn)
   const isHomepage =
-    location.pathname === '/' ||
-    location.pathname === '/offline-plugin-app-shell-fallback/'
+    location.pathname === withPrefix('/') ||
+    location.pathname === withPrefix('/offline-plugin-app-shell-fallback/')
   const isResume =
-    location.pathname === '/resume' || location.pathname === '/resume/'
+    location.pathname === withPrefix('/resume') ||
+    location.pathname === withPrefix('/resume/')
 
   return (
     <>
