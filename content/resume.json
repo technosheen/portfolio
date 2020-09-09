@@ -1,10 +1,10 @@
 {
   "basics": {
-    "name": "Matthias Kretschmann",
+    "name": "Sean Mahoney",
     "label": "Designer & Developer",
     "picture": "../src/images/avatar.jpg",
-    "email": "m@kretschmann.io",
-    "website": "https://matthiaskretschmann.com",
+    "email": "sean@technosheen.com",
+    "website": "https://technosheen.com",
     "summary": "",
     "profiles": [
       {
@@ -18,8 +18,8 @@
       },
       {
         "network": "GitHub",
-        "username": "kremalicious",
-        "url": "https://github.com/kremalicious"
+        "username": "technosheen",
+        "url": "https://github.com/technosheen"
       },
       {
         "network": "Dribbble",
@@ -33,14 +33,14 @@
       }
     ],
     "location": {
-      "city": "Berlin",
-      "countryCode": "DE"
+      "city": "New York City",
+      "countryCode": "USA"
     }
   },
   "work": [
     {
-      "company": "Ocean Protocol Foundation",
-      "position": "Lead UI Designer & Developer",
+      "company": "Reed Exhibitions",
+      "position": "Web Developer, CMS Manager",
       "website": "https://oceanprotocol.com",
       "startDate": "2017-01-01",
       "summary": "Co-Founded the Ocean Protocol project and as a core developer leading the execution of [multiple user interfaces](/oceanprotocol) and core components.\n\nIn general, leading the UI design & development of Ocean Protocol's user interfaces, iterating on a components-based UI design system spanning all of Ocean Protocol's web properties. This also includes the conceptualization, execution and iteration of the creative and visual direction of the Ocean Protocol brand."

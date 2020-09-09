@@ -1,15 +1,15 @@
 # most personal metadata can be found in ./resume.json
 
-- description: Portfolio of web &amp; ui designer/developer hybrid Matthias Kretschmann.
+- description: Portfolio of web &amp; ui designer/developer hybrid Sean Mahoney, aka {TechnoSheen}.
   img: ../src/images/twitter-card.png
 
   availability:
-    status: false
-    available: '👔 Available for new projects. <a href="mailto:m@kretschmann.io">Let’s talk</a>!'
+    status: true
+    available: '👔 Available for new projects. <a href="mailto:sean@technosheen.com">Let’s talk</a>!'
     unavailable: Not available for new projects.
 
   # Footer actions
-  gpg: https://kretschmann.io/pub.gpg
+  gpg: https://technosheen.com/pub.gpg
   addressbook: /matthias-kretschmann.vcf
   bugs: https://github.com/kremalicious/portfolio/issues/new
 
